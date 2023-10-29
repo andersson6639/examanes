@@ -1,0 +1,85 @@
+.jijija::before{
+    content: "<soy un before>";
+    color: red;
+}
+
+.wasaaa::after{
+    content: "<soy un after>";
+    color: blue;
+}
+
+.dinosaurio::before{
+    content:"";
+    background-image: url(/pseudoclases/13.examen/assets/image/dinosaurio.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+.contenedor::after{
+    content: "<holaaa>";
+    background-color:black;
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.texto::first-letter{
+    font-size: 25px;
+    color: red
+}
+
+.linea::first-line{
+    color: blue;
+}
+
+.linea::first-letter{
+    color: red;
+    font-size: 25px;
+}
+
+.input:focus{
+    background-color: yellow;
+    color: blue;
+}
+
+span:first-of-type{
+    color: green;
+    background-color: black;
+}
+
+.blue:empty{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.boton:disabled{
+    background-color: blue;
+    color: red;
+}
+
+.hover:hover{
+    color: skyblue;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-bottom: 10px;
+    background-image: url(/pseudoclases/13.examen/assets/image/dinosaurio.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container-2:last-of-type{
+    background: none;
+    background-color: blue;
+}
